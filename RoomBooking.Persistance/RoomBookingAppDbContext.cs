@@ -7,7 +7,6 @@ namespace RoomBooking.Persistance
     {
         public RoomBookingAppDbContext(DbContextOptions<RoomBookingAppDbContext> options) : base(options)
         {
-
         }
 
         public DbSet<Room> Rooms { get; set; }
