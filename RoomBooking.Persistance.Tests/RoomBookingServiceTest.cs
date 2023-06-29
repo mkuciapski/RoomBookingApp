@@ -37,7 +37,6 @@ namespace RoomBooking.Persistance.Tests
             }
         }
 
-
         [Fact]
         public void ShouldSaveBooking()
         {
