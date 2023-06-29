@@ -1,5 +1,7 @@
 ﻿using RoomBooking.App.Models;
 using RoomBooking.App.Services;
+using RoomBooking.Domain;
+using RoomBooking.Domain.BaseModels;
 
 namespace RoomBooking.App.Processors
 {

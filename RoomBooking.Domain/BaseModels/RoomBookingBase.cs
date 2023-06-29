@@ -1,4 +1,4 @@
-﻿namespace RoomBooking.App.Models
+﻿namespace RoomBooking.Domain.BaseModels
 {
     public abstract class RoomBookingBase
     {

@@ -2,6 +2,7 @@
 using RoomBooking.App.Models;
 using RoomBooking.App.Processors;
 using RoomBooking.App.Services;
+using RoomBooking.Domain;
 using Shouldly;
 
 namespace RoomBooking.Tests

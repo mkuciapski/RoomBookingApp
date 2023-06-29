@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RoomBooking.App\RoomBooking.App.csproj" />
+    <ProjectReference Include="..\RoomBooking.Persistance.Tests\RoomBooking.Persistance.Tests.csproj" />
   </ItemGroup>
 
 </Project>

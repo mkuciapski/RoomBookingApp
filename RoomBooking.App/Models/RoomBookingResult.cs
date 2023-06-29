@@ -1,4 +1,5 @@
-﻿using RoomBooking.Tests;
+﻿using RoomBooking.Domain.BaseModels;
+using RoomBooking.Tests;
 
 namespace RoomBooking.App.Models
 {
