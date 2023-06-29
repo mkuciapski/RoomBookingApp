@@ -6,12 +6,12 @@ namespace RoomBooking.Domain.BaseModels
     {
         [Required]
         [StringLength(50)]
-        public string? FullName { get; set; }
+        public string? FullName { get; set; } = string.Empty;
 
         [Required]
         [EmailAddress]
         [StringLength(50)]
-        public string? Email { get; set; }
+        public string? Email { get; set; } = string.Empty;
 
         [Required]
         [DataType(DataType.Date)]
