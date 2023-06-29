@@ -21,7 +21,9 @@ namespace RoomBooking.Domain.BaseModels
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
             if (Date <= DateTime.Now.Date)
+            {
                 yield return new ValidationResult("Date must be in future", new[] { nameof(Date) });
+            }
         }
     }
 }
